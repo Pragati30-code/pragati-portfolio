@@ -57,7 +57,7 @@ export const Projects = () => {
   const isMobile = useIsMobile();
   const projects = [
     { name:"Pawfect", emoji:"🐾", status:"live", statusLabel:"Live", desc:"A pet healthcare platform built with love for animals 🐶🐱. Connects pet owners with vets, health resources, and care guides. Deployed live on Vercel.", stack:["Java","Springboot","React","Next.js","Tailwind CSS","PostgreSQL","Hibernate","JWT","GroqAPI"], gradient:"linear-gradient(135deg, #261426, #180f1e)", accent:C.pink, github:null, live:"https://pawfect-cure.vercel.app", visual:"🐾" },
-    { name:"RideMate", emoji:"🚗", status:"wip", statusLabel:"In Progress", desc:"A campus ride-sharing platform solving real-world commute problems. Robust Spring Boot backend with secure JWT auth, ride matching, and a smooth Next.js frontend.", stack:["Spring Boot","Java","Maven","React","PostgreSQL","Hibernate","RestAPI","Websocket","JWT"], gradient:"linear-gradient(135deg, #1c1c40, #14143a)", accent:C.violet, github:"https://github.com/Pragati30-code/RideMate", live:null, visual:"🚗" },
+    { name:"RideMate", emoji:"🚗", status:"live", statusLabel:"Live", desc:"A campus ride-sharing platform solving real-world commute problems. Robust Spring Boot backend with secure JWT auth, ride matching, and a smooth Next.js frontend.", stack:["Spring Boot","Java","Maven","React","PostgreSQL","Hibernate","RestAPI","Websocket","JWT"], gradient:"linear-gradient(135deg, #1c1c40, #14143a)", accent:C.purple, github:null, live:"https://ridemate-ggsipu.vercel.app", visual:"🚗" },
   ];
 
   return (
